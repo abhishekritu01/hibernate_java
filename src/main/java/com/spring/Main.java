@@ -18,9 +18,9 @@ public class Main {
 
           //===================== 1/           creating student object
         Student student = new Student();
-        student.setId(2);
-        student.setName("anuj");
-        student.setCity("Delhi");
+        student.setId(5);
+        student.setName("Arnab");
+        student.setCity("Sitamarhi");
 
 
 
