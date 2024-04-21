@@ -17,5 +17,9 @@
         <property name="hibernate.use_sql_comments">true</property>  <!-- show sql query in console -->
         <mapping class="com.spring.Student"/>
         <mapping class="com.spring.Address"/>
+        <mapping class="com.maponetoone.Question"/>
+        <mapping class="com.maponetoone.Answer"/>
+
+
     </session-factory>
 </hibernate-configuration>
