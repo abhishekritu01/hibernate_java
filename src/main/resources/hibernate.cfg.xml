@@ -19,6 +19,8 @@
         <mapping class="com.spring.Address"/>
         <mapping class="com.maponetoone.Question"/>
         <mapping class="com.maponetoone.Answer"/>
+        <mapping class="com.mapOneToMany.Answer"/>
+        <mapping class="com.mapOneToMany.Question"/>
 
 
     </session-factory>
