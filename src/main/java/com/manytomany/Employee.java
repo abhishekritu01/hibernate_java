@@ -1,9 +1,6 @@
 package com.manytomany;
 
-import javax.persistence.Entity;
-import javax.persistence.Id;
-import javax.persistence.ManyToMany;
-import javax.persistence.ManyToOne;
+import javax.persistence.*;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -15,6 +12,7 @@ public class Employee {
     private String empName;
 
     @ManyToMany
+    @JoinTable(name = "emp_proj", joinColumns = @JoinColumn(name = "empId"), inverseJoinColumns = @JoinColumn(name = "pId"))
     private List<Project> projects;
 
     public int getEmpId() {
