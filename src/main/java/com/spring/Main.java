@@ -18,7 +18,7 @@ public class Main {
 
           //===================== 1/           creating student object
         Student student = new Student();
-        student.setId(5);
+        student.setId(1);
         student.setName("Arnab");
         student.setCity("Sitamarhi");
 
@@ -37,12 +37,6 @@ public class Main {
         byte[] data = new byte[fis.available()];
         fis.read(data);
         address.setImage(data);
-
-
-
-
-
-
 
 
         //making session object

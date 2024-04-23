@@ -86,6 +86,7 @@ public class EmbededDemo {
         session.save(student);
         session.save(student1);
         session.save(student2);
+        session.save(certificate);
         session.getTransaction().commit();
         session.close();
         factory.close();
